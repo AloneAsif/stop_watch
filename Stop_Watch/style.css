@@ -1,0 +1,70 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 100vh;
+    margin: 0;
+}
+.stopwatch{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 114, 114, 0.692);
+    border-radius: 10px;
+}
+.stopwatch:hover{
+    background-color: rgba(255, 0, 0, 0.537);
+
+
+}
+h1{
+    background-color: rgb(0, 179, 179);
+    display: inline-block;
+    /* background-color: rebeccapurple; */
+    padding: 20px;
+    font-size: 45px;
+    color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+    
+}
+button{
+    background-color: antiquewhite;
+    font-size: 25px;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px ;
+    box-shadow: 2px 2px 2px black;
+}
+
+.main{
+    width: 380px;
+    height: 380px;
+    box-shadow: 5px 5px 5px rgba(0, 114, 114, 0.692);
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/19/20/28/watch-1267420_640.jpg');
+
+    background-color: rgb(0, 179, 179);
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+    .main {
+        width: 90%; 
+        padding: 10px;
+    }
+}
